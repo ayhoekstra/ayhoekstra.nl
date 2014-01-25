@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{background-color: #fcfcfc;color: #333;font-family:helvetica neue;font-size: 100%;line-height: 1.7;font-weight: 300;margin:0;font-size:13.5pt}
+
+a{color:#046a90;text-decoration:none; -webkit-transition:ease-out 0.4s;
+    -moz-transition:ease-out 0.4s;
+    -o-transition:ease-out 0.4s;
+    transition:ease-out 0.4s;}
+a:hover{color:#0092c7}
+#header{width:100%;padding:1em 0;background-color:#0d465b;font-size:1.3em;border-bottom:1px solid #cfd2d6;overflow-y:auto}
+#header-knoppen{width:95%;max-width:40em;margin:auto;padding-right:1%;}
+a.website-naam{font-weight:400;margin:0 1em;color:#d9dee8;text-decoration:none;}
+a.knoppen-header{float:right;margin:0 0.6em;color:#adb6bc;text-decoration:none;}
+a.knoppen-header:hover{color:#FFF;}
+h1, h2, h3{font-weight: 400;line-height: 1;}
+h1{color:#38535f;font-size:2.2em}
+h2{color:#47646f}
+h3{color:#577c8b}
+h2.home{font-size: 1.2em;}
+#footer{width:92%;max-width:50em; margin:auto;padding:1em 4%;border-top:1px solid #CCC;clear:left; }
+a#JH{color:#0a4248;text-decoration:none;}
+a#JH:hover{text-decoration:underline;}
+
+.tekstblok{max-width:50em;margin:auto;}
+
+@media only screen and (max-width: 55em) {#header-knoppen{margin:0 0.4em;font-size:0.9em;}a.knoppen-header{margin:0 0.5em;}#header{padding:0.9em 0}}
+@media only screen and (max-width: 48em) {#header-knoppen{margin:0 0.4em;font-size:0.8em;}a.knoppen-header{margin:0 0.4em;}#header{padding:0.8em 0}}
+@media only screen and (max-width: 48em) {#header{padding:0.7em 0}}

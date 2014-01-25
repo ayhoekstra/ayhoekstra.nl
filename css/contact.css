@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.contact-tekstblok{max-width:50em;margin:0 auto;}
+.contact-afbeelding{width:40%;float:right;margin:1.3em 0 0 1em;}
+ul{list-style:none;margin-left: 0;
+padding-left: 0;}
+.contact-tekstvak{width:100%;margin:1em 0;float:left;}
+a.knop-twitter, a.knop-facebook, a.knop-linkedin,a.knop-e-mail{border: 0.08em solid #bdcacc;display:  inline-block;padding: 0.9em 0.9em;float:left;margin-right:0.5em}
+a.knop-twitter:hover, a.knop-facebook:hover, a.knop-linkedin:hover,a.knop-e-mail:hover{padding:0.9em 1.2em;}
+a.knop-e-mail:hover{border: 0.08em solid #888;}
+a.knop-twitter:hover{border: 0.08em solid #4f90a8;}
+a.knop-facebook:hover{border: 0.08em solid #4c6093;}
+a.knop-linkedin:hover{border: 0.08em solid #4f82a8;}
+.social-media-icon{height:1.3em;}
+#ruimte{height:4em}
+@media only screen and (max-width: 35em) {.contact-afbeelding{visibility:hidden;width:0}}

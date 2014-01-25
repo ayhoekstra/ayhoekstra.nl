@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.about{width:80%;max-width:425px;background-color:rgba(238, 238, 236, 0.8); float:left;}
+.about-tekst{padding: 2.8% 3.5%}
+
+.knoppen{width:47.9%;margin:0 0 0 3.4%;font-size:11pt;background-color:rgba(238, 238, 236, 0.8);}
+
+.kolom1{width:47.9%;float:left}
+.kolom2{width:47.9%; padding:0 0 3% 3.4% ;float:left}
+.video{margin-top:70px;}
+.boek1{float: left;margin-right: 3.5%; width:31%;}
+.boek2{float:right;margin-left:3.5%;width:31%;}
+#page{width:90%;max-width:50em;margin:2em auto;font-size:1em}
+
+#foto-blok{max-width:47em;margin:auto;padding: 1.5em;background-image: url(../pictures/river.png);}
+#blok1{width:100%; background-color:#618e9f;padding:0;margin:0 0 3% 0}
+#foto{width:100%;}
+#intro{width:96%;font-size:0.8em;max-width:21em;padding:0;background-color:rgba(255, 255, 255, 0.8);text-shadow: 5px #000;}
+#tekst-intro{width:90%;padding:1% 5%}
+
+@media only screen and (max-width: 50em) {#foto-blok{width:90%;padding: 5%;}}
+                
+@media only screen and (max-width: 40em) {#page{width:90%;}#blok1{margin-bottom:1em}.kolom1, .kolom2{width:100%;clear:left; padding:5px 0;}.boek1,.boek2{width:25%}.video{margin:0 0 10px 0}}
